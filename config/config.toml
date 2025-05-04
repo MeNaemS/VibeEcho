@@ -1,0 +1,22 @@
+[default]
+debug = true
+log_level = "INFO"
+
+[default.app]
+name = "VibeEcho"
+size = [375, 667]
+icon_path = "src/assets/icons/icon.ico"
+
+[default.app.dialog]
+size = [400, 200]
+error_image_path = "src/assets/images/messages/error.png"
+warning_image_path = "src/assets/images/messages/warning.png"
+info_image_path = "src/assets/images/messages/information.png"
+
+[development]
+debug = true
+log_level = "DEBUG"
+
+[production]
+debug = false
+log_level = "WARNING"
